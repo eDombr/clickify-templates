@@ -1,0 +1,109 @@
+.profile-content {
+  padding-top: 50px;
+  padding-bottom: 450px;
+}
+
+.input-wrapper {
+  width: 240px;
+}
+
+.title {
+  margin-bottom: 30px;
+  margin-top: 50px;
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.profile-form-wrapper {
+  .general-info-form {
+    .form-group-inline {
+      .form-group {
+        display: inline-block;
+      }
+      .form-group:first-child {
+        width: 53%;
+      }
+      .form-group:last-child {
+        width: 45%;
+      }
+    }
+  }
+}
+
+.location-table {
+  width: 100%;
+  ::ng-deep table {
+    margin-top: 40px;
+
+    .ng2-smart-filters {
+      display: none;
+    }
+
+    tr {
+      td:nth-child(5) {
+        text-align: center;
+        width: 40px;
+      }
+
+      td:nth-child(1), th:nth-child(1) {
+        width: 12%;
+      }
+
+      td:nth-child(2), th:nth-child(2) {
+        width: 12%;
+      }
+
+      td:nth-child(3), th:nth-child(3) {
+        width: 15%;
+      }
+
+      td:last-child {
+        width: 40px;
+        text-align: center;
+        // border-right: none;
+      }
+
+      td {
+        // border: 1px solid #E3E3E3;
+        border-top: 1px solid #E3E3E3;
+        border-bottom: 1px solid #E3E3E3;
+        background-color: #fff;
+      }
+
+      td,
+      th {
+        padding-top: 9px !important;
+        padding-bottom: 9px !important;
+      }
+
+      th .ng2-smart-sort-link {
+        color: #000;
+      }
+
+      .ng2-smart-actions {
+        a {
+          color: #000 !important;
+        }
+      }
+    }
+
+    @for $i from 1 through 4 {
+      tr td:nth-child(#{$i}), tr th:nth-child(#{$i}) {
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+      }
+    }
+  }
+}
+
+.not-paid-wrapper {
+  width: 100%;
+
+  .not-paid-row {
+    width: 100%;
+    background-color: #fff;
+    border-top: 1px solid #E3E3E3;
+    border-bottom: 1px solid #E3E3E3;
+    padding: 9px 20px;
+  }
+}

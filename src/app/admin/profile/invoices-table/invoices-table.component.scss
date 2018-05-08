@@ -1,0 +1,52 @@
+:host {
+  width: 100%;
+}
+
+.invoices-table {
+  .title {
+    margin-bottom: 30px;
+    margin-top: 50px;
+    font-size: 36px;
+    font-weight: 600;
+  }
+
+  ::ng-deep table {
+    .ng2-smart-filters {
+      display: none;
+    }
+
+    tr {
+      td:nth-child(1), th:nth-child(1) {
+        width: 13%;
+      }
+
+      td:nth-child(2), th:nth-child(2) {
+        width: 13%;
+      }
+
+      td {
+        // border: 1px solid #E3E3E3;
+        border-top: 1px solid #E3E3E3;
+        border-bottom: 1px solid #E3E3E3;
+        background-color: #fff;
+      }
+
+      td,
+      th {
+        padding-top: 9px !important;
+        padding-bottom: 9px !important;
+      }
+
+      th .ng2-smart-sort-link {
+        color: #000;
+      }
+    }
+
+    @for $i from 1 through 4 {
+      tr td:nth-child(#{$i}), tr th:nth-child(#{$i}) {
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+      }
+    }
+  }
+}
