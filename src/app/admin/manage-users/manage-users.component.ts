@@ -85,6 +85,36 @@ export class ManageUsersComponent implements OnInit {
       number: '413-697-0278',
       email: 'marvin_jerel@medhurst.tv'
     },
+    {
+      name: 'Sara Lee',
+      company: 'Berkshire',
+      number: '413-697-0278',
+      email: 'marvin_jerel@medhurst.tv'
+    },
+    {
+      name: 'Sara Lee',
+      company: 'Berkshire',
+      number: '413-697-0278',
+      email: 'marvin_jerel@medhurst.tv'
+    },
+    {
+      name: 'Sara Lee',
+      company: 'Berkshire',
+      number: '413-697-0278',
+      email: 'marvin_jerel@medhurst.tv'
+    },
+    {
+      name: 'Sara Lee',
+      company: 'Berkshire',
+      number: '413-697-0278',
+      email: 'marvin_jerel@medhurst.tv'
+    },
+    {
+      name: 'Sara Lee',
+      company: 'Berkshire',
+      number: '413-697-0278',
+      email: 'marvin_jerel@medhurst.tv'
+    },
   ];
   constructor() { }
 

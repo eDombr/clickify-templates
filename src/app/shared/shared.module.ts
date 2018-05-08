@@ -1,15 +1,18 @@
+import { NavbarComponent } from './components/navbar/navbar.component';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { Ng2SmartTableModule } from 'ng2-smart-table';
+import { RouterModule } from '@angular/router';
 
 @NgModule({
   imports: [
     CommonModule,
     FlexLayoutModule,
-    Ng2SmartTableModule
+    Ng2SmartTableModule,
+    RouterModule
   ],
-  declarations: [],
-  exports: [ FlexLayoutModule, Ng2SmartTableModule ]
+  declarations: [NavbarComponent],
+  exports: [ FlexLayoutModule, Ng2SmartTableModule, NavbarComponent ]
 })
 export class SharedModule { }

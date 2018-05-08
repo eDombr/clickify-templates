@@ -1,7 +1,6 @@
 import { AdminRoutingModule } from './admin-routing.module';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { NavbarComponent } from './navbar/navbar.component';
 import { AdminComponent } from './admin.component';
 import { AlocateNumbersComponent } from './alocate-numbers/alocate-numbers.component';
 import { GroupNumbersComponent } from './group-numbers/group-numbers.component';
@@ -24,7 +23,6 @@ import { ServicesUsingTableComponent } from './profile/services-using-table/serv
     SharedModule
   ],
   declarations: [
-    NavbarComponent,
     AdminComponent,
     AlocateNumbersComponent,
     GroupNumbersComponent,

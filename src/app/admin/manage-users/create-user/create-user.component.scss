@@ -2,10 +2,13 @@
   padding-top: 70px;
 
   .create-user-form {
+    max-width: 240px;
+
     p {
       font-weight: 600;
       margin-bottom: 15px;
       margin-top: 20px;
+      width: 280px;
     }
 
     .btn {
