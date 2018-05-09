@@ -1,3 +1,14 @@
-<p>
-  history works!
-</p>
+<div class="row">
+<div class="filters">
+  <div class="filters-list">
+    <div class="filters-item active">All Calls</div>
+    <div class="filters-item">Voicemails</div>
+    <div class="filters-item">Missed</div>
+  </div>
+</div>
+</div>
+<div class="row">
+  <div class="history-table">
+    <ng2-smart-table [settings]="settings" [source]="data"></ng2-smart-table>
+  </div>
+</div>
