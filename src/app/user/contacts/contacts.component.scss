@@ -1,0 +1,54 @@
+.contacts-content {
+  padding-top: 25px;
+  width: 100%;
+  .contacts-header {
+    margin-bottom: 25px;
+    .form-group {
+      margin: 0;
+    }
+    position: relative;
+    .btn {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+    }
+  }
+  .contacts-table {
+    ::ng-deep table {
+      .ng2-smart-filters {
+        display: none;
+      }
+      tr {
+        td:nth-child(1),
+        th:nth-child(1) {
+          width: 30%;
+        }
+        td:nth-child(5),
+        th:nth-child(5),
+        td:nth-child(6),
+        th:nth-child(6) {
+          width: 40px;
+        }
+
+        td:nth-child(5),
+        td:nth-child(6) {
+          border-left: 1px solid #E3E3E3;
+        }
+
+        td {
+          border-top: 1px solid #E3E3E3;
+          border-bottom: 1px solid #E3E3E3;
+          background-color: #fff;
+        }
+        td,
+        th {
+          padding-top: 9px !important;
+          padding-bottom: 9px !important;
+        }
+        th .ng2-smart-sort-link {
+          color: #000;
+        }
+      }
+    }
+  }
+}

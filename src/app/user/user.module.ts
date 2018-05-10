@@ -9,6 +9,8 @@ import { ContactsComponent } from './contacts/contacts.component';
 import { UserRoutingModule } from './user-routing.module';
 import { StatusRenderComponent } from './history/status-render/status-render.component';
 import { VoicemailRenderComponent } from './history/voicemail-render/voicemail-render.component';
+import { DeleteContactRenderComponent } from './contacts/delete-contact-render/delete-contact-render.component';
+import { EditContactRenderComponent } from './contacts/edit-contact-render/edit-contact-render.component';
 
 @NgModule({
   imports: [
@@ -23,11 +25,15 @@ import { VoicemailRenderComponent } from './history/voicemail-render/voicemail-r
     HistoryComponent,
     ContactsComponent,
     StatusRenderComponent,
-    VoicemailRenderComponent
+    VoicemailRenderComponent,
+    DeleteContactRenderComponent,
+    EditContactRenderComponent
   ],
   entryComponents: [
     StatusRenderComponent,
-    VoicemailRenderComponent
+    VoicemailRenderComponent,
+    DeleteContactRenderComponent,
+    EditContactRenderComponent
   ]
 })
 export class UserModule { }

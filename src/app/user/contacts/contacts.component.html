@@ -1,3 +1,14 @@
-<p>
-  contacts works!
-</p>
+<div class="row">
+  <div class="contacts-content">
+    <div fxLayout="row" fxLayoutAlign="space-between" class="contacts-header">
+      <div class="form-group">
+        <label for="search">Search</label>
+        <input type="text" class="form-control" id="search">
+      </div>
+      <button type="submit" class="btn btn-primary">Add Contact</button>
+    </div>
+    <div class="contacts-table">
+        <ng2-smart-table [settings]="settings" [source]="data"></ng2-smart-table>
+    </div>
+  </div>
+</div>
